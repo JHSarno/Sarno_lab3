@@ -28,7 +28,7 @@ div {
     margin: 10px;
 }
 
-.border1, .border2, .border3, .border4 {
+.border1{
     width: 100px;
     height: 200px;
     padding: 10px;
@@ -38,5 +38,45 @@ div {
     border-top: 3px solid rgb(49, 187, 14);
     border-bottom: 3px solid rgb(156, 167, 3);
     border-style: dashed;
+    border-right-style: ridge;
+}
+
+.border2{
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-right: 3px solid rgb(57, 126, 88);
+    border-left: 3px solid rgb(4, 27, 61);
+    border-top: 3px solid rgb(13, 41, 7);
+    border-bottom: 3px solid rgb(120, 124, 63);
+    border-style: dashed;
+    border-right-style: ridge;
+}
+
+.border3 {
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-right: 3px solid rgb(5, 53, 26);
+    border-left: 3px solid rgb(164, 179, 201);
+    border-top: 3px solid rgb(88, 94, 86);
+    border-bottom: 3px solid rgb(59, 63, 1);
+    border-style: dashed;
+    border-right-style: ridge;
+}
+
+.border4 {
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-right: 3px solid rgb(78, 233, 148);
+    border-left: 3px solid rgb(3, 33, 77);
+    border-top: 3px solid rgb(44, 71, 38);
+    border-bottom: 3px solid rgb(83, 87, 26);
+    border-style: dashed;
+    border-right-style: ridge;
 }
 
