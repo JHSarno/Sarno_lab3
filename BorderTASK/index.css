@@ -1,0 +1,42 @@
+body {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+
+.border-container, .border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    margin: 20px;
+    border-right: 3px solid rgb(2, 199, 91);
+    border-left: 3px solid rgb(11, 94, 219);
+    border-top: 3px solid rgb(49, 187, 14);
+    border-bottom: 3px solid rgb(156, 167, 3);
+    border-left-style: dashed;
+    border-right-style: ridge;
+} 
+
+div {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.border1, .border2, .border3, .border4 {
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-right: 3px solid rgb(2, 199, 91);
+    border-left: 3px solid rgb(11, 94, 219);
+    border-top: 3px solid rgb(49, 187, 14);
+    border-bottom: 3px solid rgb(156, 167, 3);
+    border-style: dashed;
+}
+
